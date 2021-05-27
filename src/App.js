@@ -1,11 +1,18 @@
 
-const title = 'React';
+function getName(name) {
+  return name;
+}
+
 
 function App() {
 
   return (
+
     <div>
-      <h1>Hello World!</h1>
+      <h1>Sup {getName("Maz")}?</h1>
+
+      <label htmlFor="search">Search: </label>
+      <input id="search" type="text" />
     </div>
   );
 }
